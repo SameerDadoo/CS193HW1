@@ -16,7 +16,10 @@ Homework 1 is due on Friday, September 16th at 11:59PM EDT.
 
 * In order to test your commands, run `bash -i grader.sh` in terminal. This program will let you know which command is not functionally properly.
    * Please note that the grade you receive with the ` bash -i grader.sh` is not your guaranteed grade on homework 1. Your TA will still go through your commands to ensure that you only use a single command for each of the tasks.
+   
+## Notes on repository visibility
 
+Starting homework 1, **all homework repository must remain private**. Beside homework 0, all homework repositories will ship as private by default, and you will receive 0 and be subjected to academic dishonesty if you change them to public. **DO NOT CHANGE THE VISIBILITY SETTING!!** Homework 0 is the only homework repository that should be public. If you are unsure about the visibility setting, do not hesitate to talk to one of the instructors after a lecture!
 
 
 ## Getting Started
@@ -162,4 +165,4 @@ Take a look at the **Terminal_Guide.md** file in the repository.  This document 
 
 Try different things out by typing out commands in terminal.  It is okay to mess up.  Simply run `./clean.sh` to revert any changes.  The best way to learn is to experiment!
 
-If you need extra help, ask a TA, ask on Piazza, or Google around.  **DO NOT COPY DIRECTLY FROM ANOTHER STUDENT**
+If you need extra help, ask a TA, ask on Ed Discussion, or Google around. **DO NOT COPY FROM ANOTHER STUDENT**
