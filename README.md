@@ -14,12 +14,12 @@ Homework 1 is due on Friday, September 16th at 11:59PM EDT.
 
 * You will be finished with the assignment when you have a functional **SINGLE COMMAND** for each of the 11 tasks in your `answers.sh` file.
 
-* In order to test your commands, run `bash -i grader.sh` in terminal. This program will let you know which command is not functionally properly.
+* In order to test your commands, run `bash -i grader.sh` in a terminal. This program will let you know which command is not functioning properly.
    * Please note that the grade you receive with the ` bash -i grader.sh` is not your guaranteed grade on homework 1. Your TA will still go through your commands to ensure that you only use a single command for each of the tasks.
    
 ## Notes on repository visibility
 
-Starting homework 1, **all homework repository must remain private**. Beside homework 0, all homework repositories will ship as private by default, and you will receive 0 and be subjected to academic dishonesty if you change them to public. **DO NOT CHANGE THE VISIBILITY SETTING!!** Homework 0 is the only homework repository that should be public. If you are unsure about the visibility setting, do not hesitate to talk to one of the instructors after a lecture!
+Starting homework 1, **all homework repositories must remain private**. Besides homework 0, every homework repository for CS193 will ship as private by default, and you will receive 0 on the assignment and be subjected to academic dishonesty if you change them to public. **DO NOT CHANGE THE VISIBILITY SETTING!!** Homework 0 is the only homework repository that should be public. If you are unsure about the visibility setting, do not hesitate to talk to one of the instructors after a lecture!
 
 
 ## Getting Started
@@ -43,17 +43,17 @@ Select the appropriate scopes for your token. Please make sure you select **repo
 
 3. Click the green "Clone or download" button on this GitHub repository and copy the URL. Make sure you are using the option "Clone with HTTPS".
 
-4. Open up your respective terminal application and run `ssh purdue_username@data.cs.purdue.edu`.  Replace "purdue_username" with you Purdue username. It will prompt you to enter your Purdue password. 
+4. Open up your respective terminal application and run `ssh purdue_username@data.cs.purdue.edu`.  Replace "purdue_username" with your Purdue alias (A.K.A. Purdue username, `<this-portion-of-your-purdue-email>@purdue.edu`. It will prompt you to enter your Purdue password. 
 
-5. Run `git clone URL`, replacing URL with what you copied in step 2. (It will ask for GitHub credentials)
+5. Run `git clone URL`, replacing the URL with what you copied in step 2. (It will ask for GitHub credentials)
 
-6. Run `cd homework-1-USERNAME`, replacing USERNAME with your username (eg. "ahn99") to naviage to the directory with our answers.sh worksheet
+6. Run `cd homework-1-USERNAME`, replacing the USERNAME with your username (eg. "ahn99") to navigate to the directory with our answers.sh worksheet
 
 7. Run `ls` and make sure you see `answers.sh`.  Don't worry about any other files for now.
 
 8. You are ready to go!  Start typing your answers in `answers.sh`.  To edit `answers.sh` type in either `vim answers.sh` or `nano answers.sh`.  Use the editor that you prefer.  
 
-9. Take a look at the **Terminal_Guide.md** file in the repository. This document reviews the content found in lecture. Everything you need to complete this assignment can be found there.  
+9. Take a look at the **Terminal_Guide.md** file in the repository. This document reviews the content found in the lecture. Everything you need to complete this assignment can be found there.  
 
 ## Important Notes!!!! (Please read!!!)
 
@@ -122,7 +122,7 @@ Vim or nano customization! If you haven't made any customization yet, you'll fin
 
 *NOTE: This part is not for any points, strictly optional* <br>
 
-It can be tedious to remember different usernames, hostnames, IP addresses, and sometimes even custon private keys to connect to them. There are 2 methods you can choose for creating a ssh shortcut: using SSH Config or create aliases for your shell. Please refer to **SSH_Shortcut.md** for instructions.
+It can be tedious to remember different usernames, hostnames, IP addresses, and sometimes even custom private keys to connect to them. There are 2 methods you can choose for creating an SSH shortcut: using SSH Config or creating aliases for your shell. Please refer to **SSH_Shortcut.md** for instructions.
 
 ## Turning In
 
@@ -161,8 +161,8 @@ Simply run `./clean.sh`. This will reset your `ORIGIN` directory without deletin
 
 ### NEED HELP?
 
-Take a look at the **Terminal_Guide.md** file in the repository.  This document reviews the content found in lecture.  Everything you need to complete this assignment can be found there.  
+Take a look at the **Terminal_Guide.md** file in the repository.  This document reviews the content found in the lecture.  Everything you need to complete this assignment can be found there.  
 
-Try different things out by typing out commands in terminal.  It is okay to mess up.  Simply run `./clean.sh` to revert any changes.  The best way to learn is to experiment!
+Try different things by typing out commands in the terminal.  It is okay to mess up.  Simply run `./clean.sh` to revert any changes.  The best way to learn is to experiment!
 
-If you need extra help, ask a TA, ask on Ed Discussion, or Google around. **DO NOT COPY FROM ANOTHER STUDENT**
+If you need extra help, ask a TA, ask on the Ed Discussion, or Google around. **DO NOT COPY FROM ANOTHER STUDENT**
